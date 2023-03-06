@@ -1,36 +1,25 @@
-# Desafio Pessoa Desenvolvedora Java
+# 🚨 Overview
 
-# 🚨 Requisitos
+- A API construída em Java utilizando Spring Framework
+- Implementação de autenticação seguindo o padrão ***JWT***, lembrando que o token a ser recebido deve estar no formado ***Bearer***
+- Implementação de operações no banco de dados utilizando ***Spring Data JPA*** & ***Hibernate***
+- **Bancos relacionais**
+    - *MySQL*
+- As entidades criadas como tabelas utilizando a ferramenta de migração **Flyway**.
+- Padrões REST na construção das rotas e retornos
+- Documentação viva utilizando a *OpenAPI Specification* (**Swagger**)
+- Mais informações técnicas no arquivo "Informações Adicionais"
 
-- A API deve ser construída em Java utilizando Spring Framework
-- Implementar autenticação seguindo o padrão ***JWT***, lembrando que o token a ser recebido deve estar no formado ***Bearer***
-- Implementar operações no banco de dados utilizando ***Spring Data JPA*** & ***Hibernate***
-- **Bancos relacionais permitidos**
-    - *MySQL* (prioritariamente)
-    - *PostgreSQL*
-- As entidades deversão ser criadas como tabelas utilizando a ferramenta de migração **Flyway**.
-- Sua API deverá seguir os padrões REST na construção das rotas e retornos
-- Sua API deverá conter documentação viva utilizando a *OpenAPI Specification* (**Swagger**)
-- Caso haja alguma particularidade de implementação, instruções para execução do projeto deverão ser enviadas
-
-# 🎁 Extra
-
-- Testes unitários
-- Teste de integração da API em linguagem de sua preferência (damos importância para pirâmide de testes)
-- Cobertura de testes utilizando Sonarqube
-- Utilização de *Docker*
-
-# 🕵🏻‍♂️ Validar
+# 🕵🏻‍♂️ Áreas de Estudo na API
 
 - Estrutura do projeto
 - Utilização de código limpo e princípios **SOLID**
 - Segurança da API, como autenticação, senhas salvas no banco, *SQL Injection* e outros
 - Boas práticas da Linguagem/Framework
-- Seu projeto deverá seguir tudo o que foi exigido na seção  [O que desenvolver?](##--o-que-desenvolver)
 
-# 🖥 O que desenvolver?
+# 🖥 Contexto da API
 
-Você deverá criar uma API que o site [IMDb](https://www.imdb.com/) irá consultar para exibir seu conteúdo, sua API deverá conter as seguintes funcionalidades:
+Criada uma API exemplo que o site [IMDb](https://www.imdb.com/) poderia usar para exibir e cadastrar seu conteúdo, contendo as seguintes funcionalidades:
 
 - Administrador
     - Cadastro
